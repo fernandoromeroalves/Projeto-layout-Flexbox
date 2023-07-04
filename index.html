@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menumobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display =='flex'){ document.querySelector(".menu nav ul").style.display = 'none';}
+                else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            })
+        }
+    </script>
     <title>Rodeio de Metropolis</title>
     <link rel="stylesheet" href="assets/css/templates.css">
 </head>
@@ -19,6 +29,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menumobile">
+                        <div class="m_line"></div>
+                        <div class="m_line"></div>
+                        <div class="m_line"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="#">HOME</a></li>
                         <li><a href="#">ENTIDADE</a></li>
@@ -212,7 +227,14 @@
                         <div class="widget_title_bar"></div>
                     </div>
                     <div class="widget_body">
-                        ...
+                        <div>Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</div>
+
+                        <div>
+                            Medicenter Clinic <br>
+                            33 Farlane Street+123 655 655 <br>
+                            Keilor East+123 755 755 <br>
+                            VIC 3033, romero696724@gmail.com
+                        </div>
                     </div>
                 </div>
                 <div class="footer_areaitem">
@@ -222,7 +244,18 @@
                         <div class="widget_title_bar"></div>
                     </div>
                     <div class="widget_body">
-                        ...
+                        <div>
+                            Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.
+                            11 years ago
+                    </div>
+                        <div>
+                            Lorem ipsum dolor sit amat velum.
+                            11 years ago
+                        </div>
+                        <div>
+                            Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada.
+                            11 years ago
+                        </div>
                     </div>
                 </div>
                 <div class="footer_areaitem">
@@ -232,12 +265,25 @@
                         <div class="widget_title_bar"></div>
                     </div>
                     <div class="widget_body">
-                        ...
+                        <div>
+                            We've released new version (5.3) of our #Cost #Calculator #WordPress plugin. Please check at #CodeCanyon… t.co/dv5GK6IoE9
+                            4 days ago
+                        </div>
+
+                        <div>
+                            We've released new version (v14.9) of our GymBase #Gym #Fitness #WordPress Theme. Please check at #ThemeForest t.co/8mEwDr0hie
+                            7 days ago
+                        </div>
+
+                        <div>
+                            We've released new version (v6.0) of our Pressroom #News #Magazine #WordPress Theme. Please check at #ThemeForest t.co/VSiuakDbGa
+                            8 days ago
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="footer_copy">
-                © Copyright - MediCenter Template by QuanticaLabs
+                © Copyright - Rodeio de Metropolis Template by QuanticaLabs
             </div>
         </div>
     </footer>
