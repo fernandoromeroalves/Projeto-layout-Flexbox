@@ -364,6 +364,7 @@ footer .widget_title_text{
     }
     header{
         height: auto;
+        position: absolute;
     }
     div.container img {
         padding-left: 20px;
