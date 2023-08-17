@@ -310,8 +310,11 @@ footer .widget_title_text{
     margin-right: 20px;
 }
 .m_line{
+    width: 30px;
     height: 5px;
-    background-color: #3F3F3F;
+    background-color: #bbb9b9;
+    border: 1px solid #2c2c2c;
+    border-radius: 5px 5px;
 }
 
 
@@ -352,7 +355,8 @@ footer .widget_title_text{
         padding: 20px;
     }
     header .container{
-        flex-direction: row;
+        width: 100vw;
+        flex-direction: column;
     }
     nav ul{
         flex-direction: column;
@@ -369,9 +373,28 @@ footer .widget_title_text{
     div.container img {
         padding-left: 20px;
     }
+    .menu{
+        justify-content: center;
+        padding-right: 50px;
+        background: transparent;
+        
+    }
+    .menu nav ul{
+        background-color: #2c2c2cd7;
+        
+        
+    }
+    .menu nav ul li a{
+        color: white;
+        font-weight: bolder;
+        width: calc(100vw -30px);
+        text-align: center;
+    }
     .menumobile{
+        
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        margin-top: 45px;
     }
 }
