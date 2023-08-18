@@ -341,6 +341,10 @@ footer .widget_title_text{
     div.container{
         flex-direction: column;
     }
+    div.logo1{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
     #geral section, aside{
         padding: 20px;
     }
@@ -374,7 +378,8 @@ footer .widget_title_text{
         padding-left: 20px;
     }
     .menu{
-        justify-content: center;
+        margin-bottom: 25px;
+        justify-content: end;
         padding-right: 50px;
         background: transparent;
         
